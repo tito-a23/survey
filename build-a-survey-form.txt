@@ -1,0 +1,68 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+    </head>
+    <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please spare a moment to help us improve our services</p>
+    <form id="survey-form" action="https://titosfutsurvey.com" method="post">
+    <fieldset>
+      <legend>Provide your personal information</legend>
+     <label for="name" id="name-label">Name: <input required type="text" id="name" placeholder="Enter your name"></input></label>
+     <label for="email" id="email-label">Email: <input required type="email" id="email" placeholder="Enter your email"></input></label>
+     <label for="number" id="number-label">Age: <input type="number" id="number" min="13" placeholder="Age" max="100"></input></label>
+      <label for="dropdown">Describe your current status:
+      <select id="dropdown">
+        <option>Select current role</option>
+        <option>Unemployed</option>
+        <option>Student</option>
+        <option>Casual Gamer</option>
+        <option>Professional Gamer</option>
+        <option>I'd rather not say</option>
+        </option>Other</option>
+        </select>
+        </label>
+    </fieldset>
+<fieldset>
+<p>Would you recommend FIFA Ultimate Team to a friend?</p>
+<label>
+  <input required type="radio" id="recommendation" name="recommendation" value="recommendation"> Yes</input>
+  </label>
+  <label>
+<input required type="radio" id="recommendation" name="recommendation" value="recommendation"> No</input>
+    </label>
+    <p>What is your favorite game mode on FIFA?</p>
+    <select>
+      <option value="">Choose one</option>
+      <option value="1">Kick Off</option>
+      <option value="2">Career Mode</option>
+      <option value="3">FUT</option>
+      <option value="4">Pro Clubs</option>
+      </select>
+<p>What would you like to see improved?</p>
+<input type="checkbox" id="servers" name="servers" value="1">Servers</input>
+<input type="checkbox" id="ui" name="ui" value="2">User Interface</input>
+<input type="checkbox" id="pack" name="pack" value="3">Pack Opening Experience</input>
+<input type="checkbox" id="matchmaking" name="matchmaking" value="4">Matchmaking</input>
+<input type="checkbox" id="career" name="career" value="5">Career Mode</input>
+
+<label>Any additional comments or suggestions?
+  <textarea placeholder="Write your comments here." rows="4" cols="30"></textarea>
+  </label>
+  </form>
+  <button type="submit" id="submit">Submit</button>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
